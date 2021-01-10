@@ -1,0 +1,732 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.6rem;
+  background-color: #F0F0F0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .burger {
+  padding: 10px 5px;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  font-size: 2.5rem;
+  display: none;
+  color: black;
+  border: none;
+  background-color: transparent;
+}
+
+header .burger:hover, header .burger:focus {
+  background-color: transparent;
+  color: #e2231a;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+header ul li {
+  margin: 10px;
+}
+
+header a {
+  color: black;
+}
+
+header a:hover, header a:focus {
+  font-weight: 700;
+}
+
+header .logo {
+  width: 100px;
+  height: 100px;
+}
+
+header .banner {
+  margin: 0;
+  color: white;
+  height: 400px;
+  background-image: url(../assets/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+header button {
+  font-size: 1.6rem;
+  border: 1px solid #e2231a;
+  color: #e2231a;
+  background-color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 45px;
+}
+
+header button:hover, header button:focus {
+  background: #e2231a;
+  border-color: #e2231a;
+  color: #fff;
+  cursor: pointer;
+}
+
+header #darkMode {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+}
+
+header #darkMode:hover, header #darkMode:focus {
+  color: red;
+}
+
+footer {
+  background-color: #232523;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+footer address {
+  font-style: normal;
+}
+
+footer .logo {
+  width: 60px;
+  padding-top: 25px;
+}
+
+footer p {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  border-top: 0.05px solid grey;
+}
+
+footer .icons i {
+  color: #F0F0F0;
+  font-size: 2.5rem;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.footerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 25px 0;
+}
+
+.footerContainer div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 10px;
+}
+
+.footerContainer div:first-of-type {
+  -webkit-box-flex: 1.2;
+      -ms-flex: 1.2;
+          flex: 1.2;
+  padding-right: 100px;
+}
+
+.footerContainer div:first-of-type h4 {
+  font-weight: 400;
+}
+
+.footerContainer div:first-of-type a {
+  font-weight: 700;
+}
+
+.footerContainer div:first-of-type a:hover, .footerContainer div:first-of-type a:focus {
+  border-bottom: none;
+}
+
+.footerContainer a:hover, .footerContainer a:focus {
+  border-bottom: 1px solid white;
+}
+
+main {
+  position: relative;
+}
+
+.decadesContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.decades {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+  margin: 0;
+  padding: 20px 5%;
+  background-color: rgba(35, 37, 35, 0.95);
+  color: white;
+}
+
+.decades a {
+  color: white;
+}
+
+.decades li {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.decades li:hover, .decades li:focus,
+.decades a:hover, .decades a:focus {
+  color: #e2231a;
+}
+
+/* The actual timeline (the vertical ruler) */
+.year {
+  font-size: 7rem;
+  margin: 0;
+  font-weight: 700;
+  font-family: 'Segoe UI',sans-serif;
+}
+
+.year--stroke {
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #e2231a;
+  -moz-text-stroke-color: #e2231a;
+  color: transparent;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 110px 0 100px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #232523;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: white;
+  border: 4px solid #e2231a;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -14px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+}
+
+.content h3 {
+  color: #e2231a;
+}
+
+.dark header {
+  background-color: black;
+}
+
+.dark header a {
+  color: white;
+}
+
+.dark header .burger {
+  color: white;
+}
+
+.dark main {
+  background-color: #232523;
+}
+
+.dark main li, .dark main a {
+  color: white;
+}
+
+.dark main .decades {
+  background-color: white;
+}
+
+.dark main .decades li, .dark main .decades a {
+  color: black;
+}
+
+.dark main .decades li:hover, .dark main .decades a:hover,
+.dark main .decades li:focus, .dark main .decades a:focus {
+  color: #e2231a;
+}
+
+.dark .timeline::after {
+  background-color: white;
+}
+
+.dark footer {
+  background-color: black;
+}
+
+/* Media queries */
+@media (max-width: 1150px) {
+  header ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    position: absolute;
+    right: -1000px;
+  }
+  header ul a {
+    color: white;
+  }
+  header .burger {
+    display: block;
+    cursor: pointer;
+  }
+  header .visible {
+    right: 0;
+    left: 0;
+    top: 100px;
+    background-color: #232523;
+    height: 100%;
+    z-index: 20;
+  }
+  .decades {
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+  }
+  .timeline {
+    padding-top: 150px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+  /* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 3.5rem;
+  }
+  header .banner {
+    font-size: 1.8rem !important;
+  }
+  .timeline {
+    padding-top: 220px;
+  }
+  .decades {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}

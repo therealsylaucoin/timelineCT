@@ -1,0 +1,171 @@
+header {
+    background-color: white;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .burger {
+        padding: 10px 5px;
+        position: absolute;
+        top: 25px;
+        right: 50px;
+        font-size: 2.5rem;
+        display: none;
+        color: black;
+        border: none;
+        background-color: transparent;
+
+        &:hover, &:focus {
+            background-color: transparent;
+            color: $red;
+        }
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 20px 0;
+
+        li {
+            margin: 10px;
+        }
+    }
+
+    a {
+        color: black;
+
+        &:hover, &:focus {
+            font-weight: 700;
+        }
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .banner {
+        margin: 0;
+        color: white;
+        height: 400px;
+        background-image: url(../assets/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    button {
+        font-size: 1.6rem;
+        border: 1px solid $red;
+        color: $red;
+        background-color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 10px 45px;
+
+        &:hover, &:focus {
+            background: $red;
+            border-color: $red;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+
+    #darkMode {
+        padding: 5px;
+        background-color: transparent;
+        border: none;
+        &:hover, &:focus {
+            color: red;
+        }
+    }
+}
+
+footer {
+    background-color: $grey;
+    color: white;
+
+    a {
+        color: white;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin: 5px 0;
+        }
+    }
+
+    address {
+        font-style: normal;
+    }
+
+    .logo {
+        width: 60px;
+        padding-top: 25px;
+    }
+    
+    p {
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        border-top: 0.05px solid grey;
+    }
+
+    .icons i {
+        color: $lightGrey;
+        font-size: 2.5rem;
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+}
+
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 0;
+
+    div {
+        flex: 1;
+        padding-left: 10px;
+        
+    }
+
+    div:first-of-type {
+        flex: 1.2;
+        padding-right: 100px;
+
+        h4 {
+            font-weight: 400;
+        }
+
+        a {
+            font-weight: 700;
+        }
+
+        a:hover, a:focus {
+            border-bottom: none;
+        }
+    }
+
+
+
+    a:hover, a:focus {
+        border-bottom: 1px solid white;
+    }
+}
+

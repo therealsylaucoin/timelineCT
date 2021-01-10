@@ -1,0 +1,43 @@
+.dark{
+    header {
+        background-color: black;
+
+        a {
+            color: white;
+        }
+
+        .burger {
+            color: white;
+        }
+    }
+
+    main {
+        background-color: $grey;
+
+        li, a {
+            color: white;
+        }
+
+        .decades {
+            background-color: white;
+
+            li, a{
+                color: black;
+            }
+            
+            li:hover, a:hover,
+            li:focus, a:focus {
+                color: $red;
+            }
+        }
+    }
+
+    .timeline::after {
+        background-color: white;
+    }
+
+    footer {
+        background-color: black;
+    }
+
+}
