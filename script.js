@@ -191,8 +191,8 @@ timelineArray = [
 {   
     year: 1991,
     left: false,
-    title: 'A.J. BILLES DISTRIBUTION CENTRE OPENS A.J.',
-    text: 'Billes Distribution Centre in Brampton opens. The state-of-the-art, 100-acre facility has 13 miles of conveyor belts and one mile of storage aisles.',
+    title: 'A.J. BILLES DISTRIBUTION CENTRE OPENS',
+    text: ' A.J. Billes Distribution Centre in Brampton opens. The state-of-the-art, 100-acre facility has 13 miles of conveyor belts and one mile of storage aisles.',
     imgSrc: 'assets/1991.png'
 },
 {   
@@ -347,7 +347,7 @@ timelineArray = [
 {
     year: 2016,
     left: false,
-    title: 'CONSUMER BRANDS DIVISION IS ES TABLISHED',
+    title: 'CONSUMER BRANDS DIVISION IS ESTABLISHED',
     text: 'With product innovation at the heart of Canadian Tire Corporation’s strateg y, in 2016 the Consumer Brands Division was created. This division is focused on improving design capabilities and creating unique and exclusive products.  Since its launch, we have added world-class brands including Golfgreen, Vermont Castings, Sher-Wood and Paderno to our portfolio.',
     imgSrc: 'assets/2016.png'
 },
