@@ -2,20 +2,20 @@
 $red: #e2231a;
 $grey: #232523;
 $lightGrey: #F0F0F0;
+$black: #101110;
 
 $font: 'Work Sans', sans-serif;
 
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    // overflow-x:hidden; 
 }
 
 body {
     font-family: $font;
     font-size: 1.6rem;
     background-color: $lightGrey;
-    // overflow-x:hidden; 
+    color: $black;
 }
 
 ul {

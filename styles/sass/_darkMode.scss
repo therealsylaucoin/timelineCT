@@ -1,6 +1,6 @@
 .dark{
     header {
-        background-color: black;
+        background-color: $grey;
 
         a {
             color: white;
@@ -9,10 +9,19 @@
         .burger {
             color: white;
         }
+
+        button {
+            background-color: $grey;
+
+            &:hover, &:focus {
+                background-color: $red;
+                color: $grey;
+            }
+        }
     }
 
     main {
-        background-color: $grey;
+        background-color: $black;
 
         li, a {
             color: white;
@@ -22,7 +31,7 @@
             background-color: rgba(255, 255, 255, 0.95);
 
             li, a{
-                color: black;
+                color: $black;
             }
             
             li:hover, a:hover,
@@ -32,22 +41,22 @@
         }
 
         .content {
-            background-color: black;
+            background-color: $grey;
             color: white;
         }
 
     /* Add arrows to the left container (pointing right) */
         .left::before {
-            border: medium solid black;
+            border: medium solid $grey;
             border-width: 10px 0 10px 10px;
-            border-color: transparent transparent transparent black;
+            border-color: transparent transparent transparent $grey
         }
 
         /* Add arrows to the right container (pointing left) */
         .right::before {
-            border: medium solid black;
+            border: medium solid $grey;
             border-width: 10px 10px 10px 0;
-            border-color: transparent black transparent transparent;
+            border-color: transparent $grey transparent transparent;
         }
     }
 
@@ -55,16 +64,12 @@
         background-color: white;
     }
 
-    footer {
-        background-color: black;
-    }
-
     @media(max-width: 750px) {
         .container::before {
             left: 60px;
-            border: medium solid black !important;
+            border: medium solid $grey !important;
             border-width: 10px 10px 10px 0 !important;
-            border-color: transparent black transparent transparent !important;
+            border-color: transparent $grey transparent transparent !important;
         }
     }
 }

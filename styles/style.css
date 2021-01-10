@@ -244,6 +244,7 @@ body {
   font-family: "Work Sans", sans-serif;
   font-size: 1.6rem;
   background-color: #F0F0F0;
+  color: #101110;
 }
 
 ul {
@@ -698,7 +699,7 @@ main {
 }
 
 .dark header {
-  background-color: black;
+  background-color: #232523;
 }
 
 .dark header a {
@@ -709,8 +710,17 @@ main {
   color: white;
 }
 
-.dark main {
+.dark header button {
   background-color: #232523;
+}
+
+.dark header button:hover, .dark header button:focus {
+  background-color: #e2231a;
+  color: #232523;
+}
+
+.dark main {
+  background-color: #101110;
   /* Add arrows to the left container (pointing right) */
   /* Add arrows to the right container (pointing left) */
 }
@@ -724,7 +734,7 @@ main {
 }
 
 .dark main .decades li, .dark main .decades a {
-  color: black;
+  color: #101110;
 }
 
 .dark main .decades li:hover, .dark main .decades a:hover,
@@ -733,35 +743,31 @@ main {
 }
 
 .dark main .content {
-  background-color: black;
+  background-color: #232523;
   color: white;
 }
 
 .dark main .left::before {
-  border: medium solid black;
+  border: medium solid #232523;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent black;
+  border-color: transparent transparent transparent #232523;
 }
 
 .dark main .right::before {
-  border: medium solid black;
+  border: medium solid #232523;
   border-width: 10px 10px 10px 0;
-  border-color: transparent black transparent transparent;
+  border-color: transparent #232523 transparent transparent;
 }
 
 .dark .timeline::after {
   background-color: white;
 }
 
-.dark footer {
-  background-color: black;
-}
-
 @media (max-width: 750px) {
   .dark .container::before {
     left: 60px;
-    border: medium solid black !important;
+    border: medium solid #232523 !important;
     border-width: 10px 10px 10px 0 !important;
-    border-color: transparent black transparent transparent !important;
+    border-color: transparent #232523 transparent transparent !important;
   }
 }
