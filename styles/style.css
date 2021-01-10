@@ -624,7 +624,7 @@ main {
         -ms-flex-pack: start;
             justify-content: flex-start;
     position: absolute;
-    right: -1000px;
+    display: none;
   }
   header ul a {
     color: white;
@@ -640,6 +640,9 @@ main {
     background-color: #232523;
     height: 100%;
     z-index: 20;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .decades {
     -ms-grid-columns: (1fr)[5];

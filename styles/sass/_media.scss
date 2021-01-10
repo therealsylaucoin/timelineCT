@@ -5,7 +5,7 @@
             flex-direction: column;
             justify-content: flex-start;
             position: absolute;
-            right: -1000px;
+            display:none;
             a {
                 color: white;
             }
@@ -23,6 +23,7 @@
             background-color: $grey;
             height: 100%;
             z-index: 20;
+            display: flex;
         }
     }
 
