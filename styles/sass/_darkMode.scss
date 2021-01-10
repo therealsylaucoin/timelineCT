@@ -19,7 +19,7 @@
         }
 
         .decades {
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.95);
 
             li, a{
                 color: black;
@@ -29,6 +29,25 @@
             li:focus, a:focus {
                 color: $red;
             }
+        }
+
+        .content {
+            background-color: black;
+            color: white;
+        }
+
+    /* Add arrows to the left container (pointing right) */
+        .left::before {
+            border: medium solid black;
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent black;
+        }
+
+        /* Add arrows to the right container (pointing left) */
+        .right::before {
+            border: medium solid black;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent black transparent transparent;
         }
     }
 
@@ -40,4 +59,13 @@
         background-color: black;
     }
 
+    @media(max-width: 750px) {
+        .container::before {
+            left: 60px;
+            border: medium solid black !important;
+            border-width: 10px 10px 10px 0 !important;
+            border-color: transparent black transparent transparent !important;
+        }
+    }
 }
+

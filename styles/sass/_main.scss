@@ -133,7 +133,7 @@ main{
 
 /* Fix the circle for containers on the right side */
 .right::after {
-    left: -14px;
+    left: -13px;
 }
 
 /* The actual content */
@@ -141,6 +141,10 @@ main{
     padding: 20px 30px;
     background-color: white;
     position: relative;
+
+    img {
+        border-radius: 5px;
+    }
 
     h3 {
         color: $red;

@@ -595,7 +595,7 @@ main {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -14px;
+  left: -13px;
 }
 
 /* The actual content */
@@ -605,49 +605,12 @@ main {
   position: relative;
 }
 
+.content img {
+  border-radius: 5px;
+}
+
 .content h3 {
   color: #e2231a;
-}
-
-.dark header {
-  background-color: black;
-}
-
-.dark header a {
-  color: white;
-}
-
-.dark header .burger {
-  color: white;
-}
-
-.dark main {
-  background-color: #232523;
-}
-
-.dark main li, .dark main a {
-  color: white;
-}
-
-.dark main .decades {
-  background-color: white;
-}
-
-.dark main .decades li, .dark main .decades a {
-  color: black;
-}
-
-.dark main .decades li:hover, .dark main .decades a:hover,
-.dark main .decades li:focus, .dark main .decades a:focus {
-  color: #e2231a;
-}
-
-.dark .timeline::after {
-  background-color: white;
-}
-
-.dark footer {
-  background-color: black;
 }
 
 /* Media queries */
@@ -728,5 +691,74 @@ main {
   .decades {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.dark header {
+  background-color: black;
+}
+
+.dark header a {
+  color: white;
+}
+
+.dark header .burger {
+  color: white;
+}
+
+.dark main {
+  background-color: #232523;
+  /* Add arrows to the left container (pointing right) */
+  /* Add arrows to the right container (pointing left) */
+}
+
+.dark main li, .dark main a {
+  color: white;
+}
+
+.dark main .decades {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.dark main .decades li, .dark main .decades a {
+  color: black;
+}
+
+.dark main .decades li:hover, .dark main .decades a:hover,
+.dark main .decades li:focus, .dark main .decades a:focus {
+  color: #e2231a;
+}
+
+.dark main .content {
+  background-color: black;
+  color: white;
+}
+
+.dark main .left::before {
+  border: medium solid black;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent black;
+}
+
+.dark main .right::before {
+  border: medium solid black;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent black transparent transparent;
+}
+
+.dark .timeline::after {
+  background-color: white;
+}
+
+.dark footer {
+  background-color: black;
+}
+
+@media (max-width: 750px) {
+  .dark .container::before {
+    left: 60px;
+    border: medium solid black !important;
+    border-width: 10px 10px 10px 0 !important;
+    border-color: transparent black transparent transparent !important;
   }
 }

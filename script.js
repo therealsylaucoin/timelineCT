@@ -206,7 +206,7 @@ timelineArray = [
     left: false,
     title: 'CANADIAN TIRE FINANCIAL SERVICES LAUNCHES CANADIAN TIRE OPTIONS MASTERCARD',
     text: 'Canadian Tire Financial Services becomes the first non-deposit taking, financial institution worldwide to launch a MasterCard called Options MasterCard.',
-    imgSrc: 'assets/1995.png'
+    imgSrc: 'assets/1995.jpg'
 },
 {   year: 1997,
     left: true,
